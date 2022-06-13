@@ -1,0 +1,80 @@
+.videocard {
+    width: 253px;
+    margin-left: 15px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+.thamnailimg {
+    height: 140px;
+    width: 250px;
+}
+.thamnailimg:hover{
+    
+    z-index: 100;
+    transition-duration: 1s;
+  transition-timing-function: linear;
+  transition-delay: 1s;
+  transform: scale3d(x,y,z);
+}
+
+.videocard_info {
+    display: flex;
+
+
+}
+
+.video_text {
+    margin-left: 8px;
+
+}
+
+.video_text>h4 {
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 6px;
+    margin-bottom: 5px;
+
+}
+
+.video_text>p {
+    font-size: 14px;
+    color: gray;
+
+}
+
+.card_avtar {
+    width: 30px !important;
+    height: 30px !important;
+}
+
+/*media qury for medium sceen  */
+
+@media only screen and (max-width: 675px) {
+    .videocard {
+        width: 191px;
+        margin-left: 15px;
+        margin-bottom: 8px;
+
+    }
+
+    .video_text>p {
+        margin-bottom: 3px;
+    }
+
+    .video_text {
+        margin-left: 0px;
+        width: 190px;
+
+    }
+
+    .card_avtar {
+        width: 30px !important;
+        height: 30px !important;
+    }
+
+    .thamnailimg {
+        height: 100px;
+        width: 190px;
+    }
+}

@@ -1,0 +1,145 @@
+.video_row {
+    margin-left: 30px;
+    margin-top: 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.thamnail_img {
+    height: 150px;
+    width: 270px;
+    margin-right: 20px;
+}
+
+.videocard_info {
+    display: flex;
+
+}
+
+.video_text>h4 {
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 5px;
+
+}
+
+.video_text>p {
+    font-size: 13px;
+    color: gray;
+    font-weight: 400;
+    margin-bottom: 12px;
+
+
+}
+
+.card_avtar {
+    width: 30px !important;
+    height: 30px !important;
+    margin-right: 10px;
+}
+
+.video_text .channel_details {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.video_text .channel_details>p {
+    margin: 0 12px 10px 0;
+}
+
+.card_avtar .verified_icons {
+    width: 15px;
+}
+
+/*media qury for medium sceen  */
+@media only screen and (max-width: 950px) {
+    .video_text>h4 {
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .video_text>p {
+        font-size: 12px;
+    }
+
+    .card_avtar {
+        width: 25px !important;
+        height: 25px !important;
+        margin-right: 5px;
+    }
+
+    .video_text .channel_details>p {
+        font-size: 14px;
+        margin: 0 8px 12px 0;
+    }
+
+    .thamnail_img {
+
+        margin-right: 20px;
+    }
+
+    .video_row {
+        margin-left: 20px;
+        margin-bottom: 20px;
+        margin-top: 15px;
+    }
+
+    .search_title {
+        margin-left: 20px;
+        margin-top: 15px;
+    }
+
+}
+
+/*media qury for medium sceen  */
+
+@media only screen and (max-width: 675px) {
+    .video_row {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .video_text>h4 {
+        margin-top: 8px;
+        margin-left: 0;
+        font-size: 13px;
+        font-weight: 400;
+    }
+
+    .video_text {
+        width: 250px;
+    }
+
+    .video_text>p {
+        font-size: 10px;
+    }
+
+    .card_avtar {
+        width: 20px !important;
+        height: 20px !important;
+        margin-right: 5px;
+    }
+
+    .video_text .channel_details>p {
+        font-size: 14px;
+        margin: 0 6px 10px 0;
+    }
+
+    .thamnail_img {
+        height: 120px;
+        width: 250px;
+        margin-right: 12px;
+    }
+
+    .video_row {
+        margin-left: 15px;
+        margin-bottom: 15px;
+        margin-top: 13px;
+    }
+
+    .search_title {
+        margin-left: 15px;
+        margin-top: 10px;
+    }
+}

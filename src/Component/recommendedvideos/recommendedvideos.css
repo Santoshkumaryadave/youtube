@@ -1,0 +1,15 @@
+.recommendedvideos{
+    flex: 0.8;
+    display: flex;
+    background-color: rgb(248, 248, 248);
+    padding-left: 10px;
+    padding-top: 30px;
+    flex-wrap: wrap;
+    
+}
+hr{
+    height: 1px;
+    border: 0;
+    background-color: lightgray;
+   
+}

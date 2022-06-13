@@ -1,0 +1,52 @@
+.sliderrow {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.sliderrow_title {
+    flex: 1;
+    margin-left: 20px;
+    font-size: 15px;
+    line-height: 0px;
+    font-weight: 500;
+
+}
+
+.sliderrow:hover {
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.sliderrow:hover>.sliderrow_icon {
+    color: red;
+}
+
+.sliderrow:hover>.sliderrow_title {
+    font-weight: bold;
+}
+
+.selected {
+    background-color: lightgray;
+}
+
+/*media qury for medium sceen  */
+
+@media only screen and (max-width: 975px) {
+    .sliderrow {
+        padding: 6px 12px;
+    }
+
+    .sliderrow_icon {
+        font-size: large !important;
+    }
+
+    .sliderrow_title {
+
+        margin-left: 12px;
+        font-size: 12px;
+        line-height: 0px;
+
+
+    }
+}

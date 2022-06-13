@@ -1,0 +1,13 @@
+.sliderbar{
+    flex: 0.2;
+    padding: 12px 0;
+    padding-right: 12px;
+   
+}
+.sliderbar >hr{
+    height: 1px;
+    border: 0;
+    background-color: lightgray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
