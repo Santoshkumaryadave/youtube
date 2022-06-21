@@ -1,0 +1,31 @@
+.paly_videos {
+    display: flex;
+    width: 100%;
+    background-color: #f8f8f8;
+    padding-left: 72px;
+    padding-right: 30px;
+}
+
+.play_colume {
+    flex: 0.6;
+}
+
+.recommended_colume {
+    flex: 0.4;
+
+}
+
+hr {
+    height: 1px;
+    border: 0;
+    background-color: lightgray;
+    margin: 10px;
+}
+
+/* media query for medium screen */
+@media only screen and (max-width: 975px) {
+    .paly_videos {
+        flex-direction: column;
+        padding: 0 30px;
+    }
+}

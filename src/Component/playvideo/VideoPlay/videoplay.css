@@ -1,0 +1,74 @@
+.videoplay {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    margin-right: 12px;
+    align-items: center;
+}
+
+.play_thamnailimg {
+    height: 360px;
+    width: 637px;
+}
+
+.playvideo_info {
+    width: 637px;
+}
+
+.playvideo_text>h3 {
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 12px;
+    margin-bottom: 5px;
+}
+
+.video_info>p {
+    font-size: 14px;
+    font-weight: 400;
+
+
+
+}
+
+.video_info {
+    display: flex;
+    margin-top: 12px;
+
+
+}
+
+.video_info .info_dtl {
+    display: flex;
+    align-items: center;
+    margin: 0 12px;
+}
+
+.video_info .info_dtl>h4 {
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0 10px;
+}
+
+/* media qury for medium screen */
+@media only screen and (max-width: 950px) {
+
+    .playvideo_info {
+        width: 100%;
+        padding-left: 30px;
+    }
+
+    .video_info .info_dtl>h4 {
+        font-size: 13px;
+    }
+
+    .video_info {
+        justify-content: space-between;
+    }
+
+    .video_info>svg {
+        font-size: 20px;
+    }
+}

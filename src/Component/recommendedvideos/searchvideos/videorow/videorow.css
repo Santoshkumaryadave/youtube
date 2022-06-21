@@ -1,10 +1,16 @@
 .video_row {
+    margin-right: 30px;
     margin-left: 30px;
-    margin-top: 15px;
+    margin-top: 30px;
     cursor: pointer;
     display: flex;
     align-items: center;
+ 
 }
+
+
+
+
 
 .thamnail_img {
     height: 150px;
@@ -17,14 +23,14 @@
 
 }
 
-.video_text>h4 {
+.videorow_text>h4 {
     font-size: 17px;
     font-weight: 500;
     margin-bottom: 5px;
 
 }
 
-.video_text>p {
+.videorow_text>p {
     font-size: 13px;
     color: gray;
     font-weight: 400;
@@ -33,45 +39,48 @@
 
 }
 
-.card_avtar {
+.videorowcard_avtar {
     width: 30px !important;
     height: 30px !important;
-    margin-right: 10px;
+    margin-right: 7px;
 }
 
-.video_text .channel_details {
+.videorow_text .channel_details {
     display: flex;
     margin-bottom: 10px;
 }
 
-.video_text .channel_details>p {
-    margin: 0 12px 10px 0;
+.videorow_text .channel_details>p {
+  margin-right: 6px;
 }
 
-.card_avtar .verified_icons {
-    width: 15px;
+.channel_details .verified_icons {
+    width: 17px;
 }
 
 /*media qury for medium sceen  */
 @media only screen and (max-width: 950px) {
-    .video_text>h4 {
+    .videorow_text>h4 {
         font-size: 15px;
         font-weight: 400;
     }
 
-    .video_text>p {
+    .videorow_text>p {
         font-size: 12px;
     }
 
-    .card_avtar {
+    .videorowcard_avtar {
         width: 25px !important;
         height: 25px !important;
         margin-right: 5px;
     }
 
-    .video_text .channel_details>p {
+    .videorow_text .channel_details>p {
         font-size: 14px;
         margin: 0 8px 12px 0;
+    }
+    .channel_details .verified_icons {
+        width: 15px;
     }
 
     .thamnail_img {
@@ -92,36 +101,33 @@
 
 }
 
-/*media qury for medium sceen  */
+/*media qury for small screen  */
 
 @media only screen and (max-width: 675px) {
-    .video_row {
-        flex-direction: column;
-        align-items: flex-start;
-    }
+   
 
-    .video_text>h4 {
+    .videorow_text>h4 {
         margin-top: 8px;
         margin-left: 0;
         font-size: 13px;
         font-weight: 400;
     }
 
-    .video_text {
+    .videorow_text {
         width: 250px;
     }
 
-    .video_text>p {
+    .videorow_text>p {
         font-size: 10px;
     }
 
-    .card_avtar {
+    .videorowcard_avtar {
         width: 20px !important;
         height: 20px !important;
         margin-right: 5px;
     }
 
-    .video_text .channel_details>p {
+    .videorow_text .channel_details>p {
         font-size: 14px;
         margin: 0 6px 10px 0;
     }

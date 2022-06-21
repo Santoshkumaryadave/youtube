@@ -1,11 +1,14 @@
 import { Avatar } from '@mui/material'
 import React from 'react'
-import "./videocard.css"
-
+import "./videocard.css";
+import { useNavigate } from "react-router-dom";
 const VideoCard = ({img,title,views,timetap,channelImg,channel}) => {
-    
+  let navigate= useNavigate();
+     const handelClick= ()=>{
+      navigate('/playvideo');
+     }
   return (
-    <div className='videocard'>
+    <div className='videocard' onClick={handelClick}>
         <img src={img} alt="" className="thamnailimg" />
         <div className="videocard_info">
             <Avatar className='card_avtar' 

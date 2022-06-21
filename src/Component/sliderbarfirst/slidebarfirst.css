@@ -1,0 +1,32 @@
+.sliderbarfirst{
+    max-width: 74px;
+    position: sticky;
+    top: 56px;
+    left: 0;
+    background-color: white;
+    height: 100%;
+    z-index: 200;
+   
+}
+/*media query for largesceen  */
+@media only screen and (max-width: 1300px) {
+    .sliderbarfirst{  position: fixed;
+    top: 56px;
+    left: 0;
+}
+}
+/*media query for medium sceen  */
+@media only screen and (max-width: 975px) {
+    .sliderbarfirst{  
+        max-width: 50px;
+        top: 41px;
+    }
+}
+/*media query for small sceen  */
+
+@media only screen and (max-width: 675px) {
+    .sliderbarfirst{  
+        
+        top: 35px;
+    }
+}

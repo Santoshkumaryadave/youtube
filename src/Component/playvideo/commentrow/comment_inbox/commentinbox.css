@@ -1,0 +1,47 @@
+.comment_inbox {
+    display: flex;
+    margin-left: 30px;
+    margin-top: 12px;
+    margin-right: 10px;
+
+}
+
+.comment_details {
+
+    margin-left: 15px;
+    width: 80%;
+}
+
+.comment_details .text {
+    display: flex;
+    align-items: center;
+}
+
+.comment_details .text h4 {
+    font-size: 15px;
+    font-weight: 500;
+    margin-right: 6px;
+}
+
+.comment_details .text p {
+    font-size: 13px;
+    font-weight: 400;
+
+
+}
+
+.responce_icons {
+    margin: 8px 0;
+    display: flex;
+}
+
+.responce_icons>svg {
+    margin-right: 12px;
+    height: 20px;
+}
+
+.responce_icons>span {
+    font-size: 14px;
+    font-weight: 500;
+    color: gray;
+}

@@ -1,27 +1,21 @@
 .videocard {
-    width: 253px;
-    margin-left: 15px;
+    width: 270px;
+    margin-left: 20px;
     margin-bottom: 40px;
     cursor: pointer;
+
 }
 
+
+
 .thamnailimg {
-    height: 140px;
-    width: 250px;
+    height: 160px;
+    width: 270px;
 }
-.thamnailimg:hover{
-    
-    z-index: 100;
-    transition-duration: 1s;
-  transition-timing-function: linear;
-  transition-delay: 1s;
-  transform: scale3d(x,y,z);
-}
+
 
 .videocard_info {
     display: flex;
-
-
 }
 
 .video_text {
@@ -60,6 +54,7 @@
 
     .video_text>p {
         margin-bottom: 3px;
+        font-size: 9px;
     }
 
     .video_text {
@@ -77,4 +72,14 @@
         height: 100px;
         width: 190px;
     }
+
+    .video_text>h4 {
+        font-size: 12px;
+        font-weight: 500;
+        margin-left: 4px;
+        margin-bottom: 3px;
+
+    }
+
+
 }

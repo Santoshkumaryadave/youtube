@@ -1,61 +1,88 @@
-.navbar{
-    
-    flex: 0.8 1;
-    margin-bottom: 20px;
-    margin-top: 12px;
+.navbar {
+    height: 35px;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    overflow: hidden;
+    padding-top: 12px;
+    z-index: 99;
+
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgray;
+
+
 }
+
 .navitem1 {
     background-color: rgb(0, 0, 0);
     color: white;
-    padding: 3px;
+    padding: 2px 12px;
     border-radius: 45px;
     font-size: 15px;
-    height: 21px;
-    text-align: center;
-    width: 40px;
-    transition: background-color 0.5s cubic-bezier(0.05,0,0,1);
+
+
 }
-.navbar ul{
+
+.navbar ul {
     display: flex;
     list-style: none;
     align-items: center;
     justify-content: space-evenly;
-    transition: background-color 0.5s cubic-bezier(0.05,0,0,1);
+
 }
-.navbar ul .navitem{
+
+.navbar ul .navitem {
     background-color: rgb(234 234 234);
-    padding: 3px;
+    padding: 2px 12px;
     border-radius: 45px;
     font-size: 15px;
-    height: 21px;
-    text-align: center;
-    width: 80px;
+
 }
-/*media qury for medium sceen  */
-@media only screen and (max-width: 950px){
+
+/*media query for large screen  */
+@media only screen and (max-width: 1300px) {
+    .navbar {
+        padding-left: 39px;
+        overflow: hidden;
+    }
+
+}
+
+/*media qurey for medium sceen  */
+@media only screen and (max-width: 950px) {
     .navbar ul .navitem {
-        
-      
         border-radius: 27px;
-       
         font-size: 13px;
-        height: 18px;
-       
-        width: 53px;
+
+
     }
-    .navitem1{
+
+    .navitem1 {
         border-radius: 27px;
-       
         font-size: 13px;
-        height: 18px;
-       
-        width: 20px; 
+
+
     }
 }
-/*media qury for small sceen  */
-@media only screen and (max-width: 500px){
-    .navbar{display: none;}
+
+/*media qurey for small sceen  */
+@media only screen and (max-width: 675px) {
+    .navbar {
+        height: 25px;
+        padding-left: 48px;
+    }
+
+    .navbar ul .navitem {
+
+        font-size: 10px;
+        padding: 2px 6px;
+
+    }
+
+    .navitem1 {
+
+        font-size: 10px;
+        padding: 2px 6px;
+
+    }
 }
-
-
-

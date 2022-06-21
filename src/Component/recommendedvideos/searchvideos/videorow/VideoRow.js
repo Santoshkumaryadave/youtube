@@ -10,11 +10,11 @@ const VideoRow = ({ img, title, views, timetap, channelImg, channel, verified, d
             <div className='video_row'>
                 <img src={img} alt="" className="thamnail_img" />
                 <div className="videocard_info">
-                    <div className="video_text">
+                    <div className="videorow_text">
                         <h4>{title}</h4>
                         <p>{views} . {timetap}</p>
                         <div className="channel_details">
-                            <Avatar className='card_avtar'
+                            <Avatar className='videorowcard_avtar'
                                 alt={channel} src={channelImg} />
                             <p>{channel}</p> {verified && <CheckCircleIcon className='verified_icons' />}
                         </div>

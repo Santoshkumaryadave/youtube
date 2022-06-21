@@ -8,14 +8,23 @@
     top: 0;
     z-index: 100;
     background-color: white;
+}
 
+.header .left {
+    display: flex;
+    align-items: center;
 }
 
 .header_logo {
-    height: 25px;
+    width: 58px;
     object-fit: contain;
     margin-left: 22px;
     cursor: pointer;
+}
+
+.btn_manu {
+    background: none;
+    border: none
 }
 
 .manu_icons {
@@ -28,7 +37,7 @@
     height: 38px;
     display: flex;
     align-items: center;
-    width: 40%;
+    width: 50%;
     border: 1px solid #dddddd;
 
 }
@@ -38,35 +47,45 @@
     height: 38px;
     padding-left: 10px;
     border: none;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .search_icon {
-    width: 50px !important;
+    width: 65px !important;
     border-left: 1px solid lightgray;
     color: gray;
     background-color: #fafafa;
     cursor: pointer;
-    margin-left: -1px;
     display: flex;
+    overflow: hidden;
     align-items: center;
     height: 38px;
     justify-content: center;
 }
 
 .right {
+    width: 20%;
     display: flex;
     align-items: center;
+    justify-content: space-around;
 
 }
 
-.icons {
-    margin-left: 12px;
+.right>svg {
+    width: 36px;
     cursor: pointer;
+    height: 30px;
+
 }
+
 /*media qury for medium screen  */
 
 @media only screen and (max-width: 975px) {
+    .header {
+
+        height: 40px;
+    }
+
     .middile>input {
 
         height: 20px;
@@ -81,18 +100,42 @@
     }
 
     .search_icon {
-        width: 20px;
+
         height: 20px;
+    }
+
+    .search_icon>svg {
+        height: 20px;
+    }
+
+    .right>svg {
+        width: 36px;
+
+        height: 25px;
+
     }
 }
 
 /*media qury for small screen  */
 
 @media only screen and (max-width: 675px) {
+    .header {
+
+        height: 35px;
+    }
+
+    .header .left svg {
+        width: 20px;
+    }
+
     .search_icon {
         width: 23px !important;
         height: 17px;
 
+    }
+
+    .search_icon>svg {
+        height: 17px;
     }
 
     .middile>input {
@@ -105,16 +148,20 @@
 
     .middile {
         height: 17px;
-        width: 34%;
+
     }
 
     .header_logo {
-        height: 20px;
-        margin-left: 10px;
+        width: 40px;
+        margin-left: 5px;
     }
 
-    .right .icons {
+
+    .right>svg {
         width: 20px;
+
+        height: 20px;
+
     }
 
 }

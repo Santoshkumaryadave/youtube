@@ -1,16 +1,14 @@
 import React from 'react'
-import Navbar from './Navbar/Navbar'
 import './recommendedvideos.css'
+import Navbar from "./Navbar/Navbar"
 import VideoCard from './VideoCard/VideoCard'
 const RecommendedVideos = () => {
   return (
-    
-<div>
-  <hr/>
-       <Navbar/>
- <hr/>  
-      <div className='recommendedvideos'>
-            
+
+    <div className='recommendedvideos'>
+    <Navbar/>
+      <div className='recommendedvideos_videos'>
+
         <VideoCard
           img="https://www.animatedvideo.com/blog/wp-content/uploads/2019/07/7-benefits-of-clickworthy-video-thumbnails-in-video-marketing.png"
           channel={"UQ UPLOADS"}
@@ -132,8 +130,8 @@ const RecommendedVideos = () => {
           timetap={"timetap"} />
 
       </div>
-      </div>
-  
+    </div>
+
   )
 }
 

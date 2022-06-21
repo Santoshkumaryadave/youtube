@@ -1,20 +1,21 @@
 .sliderrow {
     display: flex;
     align-items: center;
-    padding: 10px 20px;
+    padding: 8px 53px 8px 23px;
+
 }
 
 .sliderrow_title {
     flex: 1;
     margin-left: 20px;
-    font-size: 15px;
+    font-size: 14px;
     line-height: 0px;
     font-weight: 500;
 
 }
 
 .sliderrow:hover {
-    background-color: lightgray;
+    background-color: rgb(235, 235, 235);
     cursor: pointer;
 }
 
@@ -30,7 +31,7 @@
     background-color: lightgray;
 }
 
-/*media qury for medium sceen  */
+/*media qurey for medium sceen  */
 
 @media only screen and (max-width: 975px) {
     .sliderrow {
@@ -46,7 +47,5 @@
         margin-left: 12px;
         font-size: 12px;
         line-height: 0px;
-
-
     }
 }
